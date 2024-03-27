@@ -145,3 +145,5 @@ dist
 
 # built dependencies
 lib/
+
+.nx/cache
