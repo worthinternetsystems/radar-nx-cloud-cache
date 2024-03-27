@@ -18,6 +18,48 @@ importers:
         specifier: ^29.7.0
         version: 29.7.0
 
+  packages/greeter:
+    devDependencies:
+      '@stryker-mutator/core':
+        specifier: ^8.2.6
+        version: 8.2.6
+      '@stryker-mutator/jest-runner':
+        specifier: ^8.2.6
+        version: 8.2.6(@stryker-mutator/core@8.2.6)
+      '@stryker-mutator/typescript-checker':
+        specifier: 8.2.6
+        version: 8.2.6(@stryker-mutator/core@8.2.6)(typescript@5.4.3)
+      '@swc/core':
+        specifier: ^1.4.8
+        version: 1.4.11
+      '@swc/jest':
+        specifier: ^0.2.36
+        version: 0.2.36(@swc/core@1.4.11)
+      '@types/jest':
+        specifier: 29.5.12
+        version: 29.5.12
+      '@types/uuid':
+        specifier: ^9.0.8
+        version: 9.0.8
+      '@typescript-eslint/eslint-plugin':
+        specifier: 7.3.1
+        version: 7.3.1(@typescript-eslint/parser@7.3.1)(eslint@8.57.0)(typescript@5.4.3)
+      '@typescript-eslint/parser':
+        specifier: 7.3.1
+        version: 7.3.1(eslint@8.57.0)(typescript@5.4.3)
+      eslint:
+        specifier: 8.57.0
+        version: 8.57.0
+      jest:
+        specifier: 29.7.0
+        version: 29.7.0
+      prettier:
+        specifier: 3.2.5
+        version: 3.2.5
+      typescript:
+        specifier: 5.4.3
+        version: 5.4.3
+
   packages/workspace-package:
     devDependencies:
       '@stryker-mutator/core':
@@ -94,11 +136,11 @@ packages:
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@babel/code-frame': 7.24.2
-      '@babel/generator': 7.23.6
+      '@babel/generator': 7.24.1
       '@babel/helper-compilation-targets': 7.23.6
       '@babel/helper-module-transforms': 7.23.3(@babel/core@7.23.9)
       '@babel/helpers': 7.24.1
-      '@babel/parser': 7.23.9
+      '@babel/parser': 7.24.1
       '@babel/template': 7.24.0
       '@babel/traverse': 7.24.1
       '@babel/types': 7.24.0
