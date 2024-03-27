@@ -67,6 +67,10 @@ importers:
         version: 5.4.3
 
   packages/hype-generator:
+    dependencies:
+      greeter:
+        specifier: workspace:^
+        version: link:../greeter
     devDependencies:
       '@stryker-mutator/core':
         specifier: ^8.2.6
