@@ -9,10 +9,8 @@ describe("greeter", () => {
     );
   });
   test("greets in really bad French", () => {
-    expect(
-      racistFrenchGreeter("Claud").toBe(
-        "Bonjour Claud! Je suis Français mon amis"
-      )
+    expect(racistFrenchGreeter("Claud")).toBe(
+      "Bonjour Claud! Je suis Français mon amis"
     );
   });
 });
