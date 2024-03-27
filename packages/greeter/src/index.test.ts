@@ -1,4 +1,4 @@
-import { englishGreeter, excitedGreeter } from "./index";
+import { englishGreeter, excitedGreeter, racistFrenchGreeter } from "./index";
 describe("greeter", () => {
   test("greets in English", () => {
     expect(englishGreeter("Davey McDaveson")).toBe("Hello Davey McDaveson");
