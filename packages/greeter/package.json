@@ -5,8 +5,8 @@
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
-    "build": "tsc",
-    "test": "jest",
+    "build": "sleep 5 && tsc",
+    "test": "sleep 5 && jest",
     "prepare": "npm run build",
     "mutate": "stryker run -c stryker.config.json --concurrency 8",
     "prepublishOnly": "npm test",
