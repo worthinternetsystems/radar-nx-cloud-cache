@@ -8,4 +8,11 @@ describe("greeter", () => {
       "Wow Davey McDaveson! Nice to meet you :) !!"
     );
   });
+  test("greets in really bad French", () => {
+    expect(
+      racistFrenchGreeter("Claud").toBe(
+        "Bonjour Claud! Je suis Français mon amis"
+      )
+    );
+  });
 });
