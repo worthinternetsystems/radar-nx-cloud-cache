@@ -1,5 +1,5 @@
 {
-  "name": "workspace-package",
+  "name": "manny-packagio",
   "version": "0.0.0",
   "description": "Workspace package",
   "main": "lib/index.js",
