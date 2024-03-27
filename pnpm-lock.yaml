@@ -21,7 +21,6 @@ importers:
         specifier: ^29.7.0
         version: 29.7.0
 
-<<<<<<< Updated upstream
   packages/greeter:
     devDependencies:
       '@stryker-mutator/core':
@@ -64,10 +63,49 @@ importers:
         specifier: 5.4.3
         version: 5.4.3
 
-  packages/workspace-package:
-=======
+  packages/hype-generator:
+    devDependencies:
+      '@stryker-mutator/core':
+        specifier: ^8.2.6
+        version: 8.2.6
+      '@stryker-mutator/jest-runner':
+        specifier: ^8.2.6
+        version: 8.2.6(@stryker-mutator/core@8.2.6)
+      '@stryker-mutator/typescript-checker':
+        specifier: 8.2.6
+        version: 8.2.6(@stryker-mutator/core@8.2.6)(typescript@5.4.3)
+      '@swc/core':
+        specifier: ^1.4.8
+        version: 1.4.11
+      '@swc/jest':
+        specifier: ^0.2.36
+        version: 0.2.36(@swc/core@1.4.11)
+      '@types/jest':
+        specifier: 29.5.12
+        version: 29.5.12
+      '@types/uuid':
+        specifier: ^9.0.8
+        version: 9.0.8
+      '@typescript-eslint/eslint-plugin':
+        specifier: 7.3.1
+        version: 7.3.1(@typescript-eslint/parser@7.3.1)(eslint@8.57.0)(typescript@5.4.3)
+      '@typescript-eslint/parser':
+        specifier: 7.3.1
+        version: 7.3.1(eslint@8.57.0)(typescript@5.4.3)
+      eslint:
+        specifier: 8.57.0
+        version: 8.57.0
+      jest:
+        specifier: 29.7.0
+        version: 29.7.0
+      prettier:
+        specifier: 3.2.5
+        version: 3.2.5
+      typescript:
+        specifier: 5.4.3
+        version: 5.4.3
+
   packages/manny-packagio:
->>>>>>> Stashed changes
     devDependencies:
       '@stryker-mutator/core':
         specifier: ^8.2.6

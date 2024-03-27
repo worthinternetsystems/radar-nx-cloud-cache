@@ -1,0 +1,1 @@
+export const generateHype = (levelOfHype: number) => `This is awesome${'!'.repeat(Math.abs(levelOfHype))}`;
