@@ -1,7 +1,8 @@
 {
   "targetDefaults": {
     "test": {
-      "dependsOn": ["build", "^test"]
+      "dependsOn": ["build", "^test"],
+      "cache": true
     },
     "build": {
       "dependsOn": ["^build"],
@@ -13,6 +14,11 @@
     },
     "prettier": {
       "dependsOn": ["^prettier"]
+    },
+    "mutate": {
+      "dependsOn": ["^mutate", "test"],
+      
+      "cache": true
     }
   },
   "defaultBase": "main",

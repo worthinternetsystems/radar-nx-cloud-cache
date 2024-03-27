@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "nx run-many -t build"
+    "test": "nx run-many -t test",
+    "build": "nx run-many -t build",
+    "mutate": "nx run-many -t mutate"
   },
   "keywords": [],
   "author": "",
