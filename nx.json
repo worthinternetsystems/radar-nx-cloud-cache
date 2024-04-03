@@ -1,26 +1,40 @@
 {
   "targetDefaults": {
     "test": {
-      "dependsOn": ["build", "^test"],
+      "dependsOn": [
+        "build",
+        "^test"
+      ],
       "cache": true
     },
     "build": {
-      "dependsOn": ["^build"],
-      "outputs": ["{projectRoot}/lib,dist"],
+      "dependsOn": [
+        "^build"
+      ],
+      "outputs": [
+        "{projectRoot}/lib,dist"
+      ],
       "cache": true
     },
     "lint": {
-      "dependsOn": ["^lint"]
+      "dependsOn": [
+        "^lint"
+      ]
     },
     "prettier": {
-      "dependsOn": ["^prettier"]
+      "dependsOn": [
+        "^prettier"
+      ]
     },
     "mutate": {
-      "dependsOn": ["^mutate", "test"],
-      
+      "dependsOn": [
+        "^mutate",
+        "test"
+      ],
       "cache": true
     }
   },
   "defaultBase": "main",
-  "$schema": "./node_modules/nx/schemas/nx-schema.json"
+  "$schema": "./node_modules/nx/schemas/nx-schema.json",
+  "nxCloudAccessToken": "YWVhNzQ1NGUtNzY3OC00Yjk2LWE3ZjItNDc1OWI2NDMxOTg1fHJlYWQtd3JpdGU="
 }
