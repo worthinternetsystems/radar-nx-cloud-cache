@@ -1,1 +1,1 @@
-export const placeholder = "placeholder or something";
+export const placeholder = "placeholder";
